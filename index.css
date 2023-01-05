@@ -1,0 +1,230 @@
+/*
+Name: Lin Chen, Student number: 041053912.
+*/
+
+        body 
+        {
+            background-image: url("main-gradient.png");
+            font-family: "Lucida Sans", sans-serif;
+        }
+        .template
+        {
+            background-color: aliceblue;
+            padding: 10px 10px;
+            margin:0 auto; 
+            border-radius: 15px;
+            width:80%;
+        }
+        .header1
+        {
+            color:rgb(206, 46, 195);
+            font-size: 30px;
+            font-style: oblique;
+            padding-left: 40%;
+        }
+        .header2 
+        {
+            background-color: #26d9f5;
+            color: #f615af;
+            padding: 15px;
+            font-family:cursive;
+        }
+        .Description
+        {
+            padding-left: 10%;
+            padding-right:10%;
+            justify-content: center;
+        }  
+        
+        .text1
+        {
+            color:rgb(246, 30, 192);
+            font-size: 30px;
+            font-variant: inherit;
+        }
+        
+        .picture01
+        {
+            float: right;
+            clip-path:circle(40%);
+        }
+        .picture02
+        {
+            float:inline-start;
+        } 
+        .flex-container
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .flex-container  a
+        {
+            background: rgb(183, 231, 236);
+            border-radius: 30px;
+            padding:15px;
+            margin:15px;
+            font-size: 18pt;
+            text-decoration: none;
+            color:#9c0757;
+        } 
+        .flex-container > a:hover
+        {
+            background-color: #93A29B;
+            color:#8B635C;
+        }
+        .myhobbies
+        {
+            padding-left: 10%;
+            color:rgb(13, 23, 141);
+            font-size: 20px;
+            font-variant: inherit;
+        }
+        .mycollege
+        {
+            padding-left: 20%;
+            color:rgb(206, 30, 180);
+            font-size: 20px;
+            font-variant:normal;
+        }
+        * 
+        {
+            box-sizing: border-box;
+        }
+        .row::after 
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        [class*="col-"] 
+        {
+            float: left;
+            padding: 15px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+
+        .menu01 li 
+        {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #3a788f;
+            color: #ffffff;
+            font-size:large;
+                } 
+        .menu01 li:hover
+        {
+            background-color: #244f5f;
+        }
+
+        .menu02 li 
+        {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #12a8d9;
+            color: #ffffff;
+        }
+        .menu02 li:hover
+        {
+            background-color: #096880;
+        }
+        .menu04 li
+        {
+            padding: 10px;
+            margin-bottom: 15px; 
+        }
+        .menu04 li:hover
+        {
+            background-color: #2a464d;
+        }
+        .menu05 
+        {
+            padding: 17px;
+            margin-bottom: 15px;
+            /* background-color: aliceblue; */
+            color: #1b1e04; 
+        }
+        .menu05 > a
+        {
+            padding: 17px;
+            margin-bottom: 15px;
+            color: #2917ee; 
+        }
+        .filter
+        {
+            padding: 15px;
+            margin: 10px; 
+        }
+        .text
+        {
+            font-size: 12pt;
+        }
+        .button1
+        {
+            font-size: 12pt;
+        }
+        .button2
+        {
+            font-size: 12pt;
+        
+        }
+        #levels
+        {
+        
+            font-size: 12pt;
+        }
+        select
+        {
+            margin: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12pt;
+        }
+        .grid-container 
+        {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            background-color: #fbfcfd;
+            padding: 10px;
+            border-radius: 15pt;
+        }
+        .grid-item 
+        {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-style:ridge;
+            text-align: center;
+            margin:10px;
+            border-radius: 15pt;   
+        }
+        h2,h3, p
+        {
+            color:#30051c;
+        }
+        .img000
+        {
+            width: 100%;
+            height: 150pt;
+            border-radius: 15pt 15pt 0pt 0pt;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        footer
+        {
+            /* background-color:#ded6c7; */
+            /* border: 4px solid #dcd4c7; */
+            padding: 10px;
+            text-align:center;
+        }

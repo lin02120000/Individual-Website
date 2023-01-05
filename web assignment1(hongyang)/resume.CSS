@@ -1,0 +1,124 @@
+/*
+Name: Lin Chen, Student number: 041053912.
+*/
+
+body 
+{
+    background-image: url("main-gradient.png");
+}
+.template
+{
+  background-color: aliceblue;
+  padding: 8px 20px;
+  margin:0 auto; 
+  border-radius: 15px;
+  width:80%;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+}
+.flex-container  a
+{
+    background: rgb(183, 231, 236);
+    border-radius: 30px;
+    padding:10px;
+    margin:10px;
+    font-size: 16pt;
+    text-decoration: none;
+    color:#9c0757;
+} 
+.flex-container > a:hover
+{
+    background-color: #93A29B;
+    color:#8B635C;
+}
+* 
+{
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] 
+{
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body
+{
+    font-family: "Lucida Sans", sans-serif;
+}
+.header 
+{
+    background-color: #26d9f5;
+    color: #f615af;
+    padding: 15px;
+    font-family:cursive;
+}
+/* .menu01 ul
+{
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+} */
+.menu01 li 
+{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #3a788f;
+    color: #ffffff;
+    font-size:large;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+}
+.menu01 li:hover
+{
+    background-color: #244f5f;
+}
+/* .menu02 ul
+{
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+} */
+.menu02 li 
+{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #12a8d9;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+}
+.menu02 li:hover
+{
+    background-color: #096880;
+}
+.menu04 li
+{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #3A788F;
+    color: #e8e9e1;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+  
+}
+.menu04 li:hover
+{
+    background-color: #2a464d;
+}

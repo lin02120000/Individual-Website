@@ -1,0 +1,107 @@
+/*
+Name: Lin Chen, Student number: 041053912.
+*/
+
+        body 
+        {
+            background-image: url("main-gradient.png");
+        }
+        .template
+        {
+          background-color: aliceblue;
+          padding: 8px 20px;
+          margin:0 auto; 
+          border-radius: 15px;
+          width:80%;
+        }
+        h1
+        {
+            color:rgb(206, 46, 195);
+            font-size: 40px;
+            font-style: oblique;
+            text-align: center;
+        }
+        .Description
+        {
+            padding-left: 15%;
+            padding-right:10%;
+            justify-content: center;
+        }  
+        p
+        {
+            color:rgb(246, 30, 192);
+            font-size: 25px;
+            font-variant: inherit;
+        }
+        .picture01
+        {
+            float: right;
+            clip-path:circle(40%);
+            margin-right: auto;
+        }
+        img
+        {
+            width: 500px;
+        }
+        .picture02
+        {
+            clip-path:circle(40%);
+            float: left;
+            margin-left: auto;
+        } 
+        .hobbySection
+        {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .educationSection
+        {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-container
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .flex-container  a
+        {
+            background: rgb(183, 231, 236);
+            border-radius: 30px;
+            padding:10px;
+            margin:10px;
+            font-size: 16pt;
+            text-decoration: none;
+            color:#9c0757;
+        } 
+        a
+        {
+            text-decoration: none;
+        }
+        .flex-container > a:hover
+        {
+            background-color: #93A29B;
+            color:#8B635C;
+        }
+        .myhobbies
+        {
+            padding-left: 15%;
+            color:rgb(13, 23, 141);
+            font-size: 20px;
+            font-variant: inherit;
+            margin:15px;
+        }
+        .mycollege
+        {
+            padding-left: 15%;
+            color:rgb(13, 23, 141);
+            font-size: 20px;
+            font-variant: inherit;
+            margin:15px;
+        }
